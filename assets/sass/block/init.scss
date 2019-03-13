@@ -1,0 +1,60 @@
+// FONTS
+//@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+body {
+    font-family: 'Aldrich', sans-serif;
+//    letter-spacing: 1px;
+    background-color: #000;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    color: $text;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+    color: $text;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 26px;
+    line-height: 32px;
+    color: $text;
+}
+
+h4 {
+    color: $text;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    color: $text;
+    margin-bottom: 5px;
+}
+
+span {
+    
+    &.gold {
+//        position: relative;
+        
+//        &:after {
+//            content: url('../img/coin.png');
+//            position: absolute;
+//            top: 0;
+//            right: 0;
+//        }
+    }
+}
+
+a {
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}

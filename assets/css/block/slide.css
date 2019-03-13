@@ -1,0 +1,23 @@
+.slide {
+  width: 100%;
+  top: 0;
+  position: absolute;
+  pointer-events: none; }
+  .slide--current {
+    position: relative; }
+  .slide__img-wrap {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative; }
+  .slide__img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    pointer-events: none; }

@@ -1,0 +1,279 @@
+{
+    "Maze": {
+        "numberOfRooms": 9,
+        "rooms": [
+            {
+                "roomID": 1,
+                "linkedRooms": [4],
+                "passages": [
+                    {
+                        "direction": "south",
+                        "roomID" : 4,
+                        "isExit": false
+                    }
+                ],
+                "items": [
+                    {
+                        "itemType": "treasure",
+                        "itemName": "Gold",
+                        "itemValue": 300
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Zombie",
+                        "actionNeeded" : "axe"
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Werewolf",
+                        "actionNeeded" : "silver_bullet"
+                    }
+                ]
+            },
+            {
+                "roomID": 2,
+                "linkedRooms": [3],
+                "passages": [
+                    {
+                        "direction": "north",
+                        "roomID" : null,
+                        "isExit": true
+                    },
+                    {
+                        "direction": "east",
+                        "roomID" : 3,
+                        "isExit": false
+                    }
+                ],
+                "items": [
+                    {
+                        "itemType": "treasure",
+                        "itemName": "Gold",
+                        "itemValue": 0
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Witch",
+                        "actionNeeded" : "water"
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Vampire",
+                        "actionNeeded" : "garlic"
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Zombie",
+                        "actionNeeded" : "axe"
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Werewolf",
+                        "actionNeeded" : "silver_bullet"
+                    }
+                ]
+            },
+            {
+                "roomID": 3,
+                "linkedRooms": [2, 6],
+                "passages": [
+                    {
+                        "direction": "west",
+                        "roomID" : 2,
+                        "isExit": false
+                    },
+                    {
+                        "direction": "south",
+                        "roomID" : 6,
+                        "isExit": false
+                    }
+                ],
+                "items": [
+                    {
+                        "itemType": "treasure",
+                        "itemName": "Gold",
+                        "itemValue": 100
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Vampire",
+                        "actionNeeded" : "garlic"
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Zombie",
+                        "actionNeeded" : "axe"
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Werewolf",
+                        "actionNeeded" : "silver_bullet"
+                    }
+                ]
+            },
+            {
+                "roomID": 4,
+                "linkedRooms": [1, 7],
+                "passages": [
+                    {
+                        "direction": "north",
+                        "roomID" : 1,
+                        "isExit": false
+                    },
+                    {
+                        "direction": "south",
+                        "roomID" : 7,
+                        "isExit": false
+                    }
+                ],
+                "items": [
+                    {
+                        "itemType": "treasure",
+                        "itemName": "Gold",
+                        "itemValue": 0
+                    }
+                ]
+            },
+            {
+                "roomID": 5,
+                "linkedRooms": [6, 8],
+                "passages": [
+                    {
+                        "direction": "east",
+                        "roomID" : 6,
+                        "isExit": false
+                    },
+                    {
+                        "direction": "south",
+                        "roomID" : 8,
+                        "isExit": false
+                    }
+                ],
+                "items": [
+                    {
+                        "itemType": "treasure",
+                        "itemName": "Gold",
+                        "itemValue": 200
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Vampire",
+                        "actionNeeded" : "garlic"
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Zombie",
+                        "actionNeeded" : "axe"
+                    }
+                ]
+            },
+            {
+                "roomID": 6,
+                "linkedRooms": [4, 5, 9],
+                "passages": [
+                    {
+                        "direction": "north",
+                        "roomID" : 3,
+                        "isExit": false
+                    },
+                    {
+                        "direction": "west",
+                        "roomID" : 5,
+                        "isExit": false
+                    },
+                    {
+                        "direction": "south",
+                        "roomID" : 9,
+                        "isExit": false
+                    }
+                ],
+                "items": [
+                    {
+                        "itemType": "treasure",
+                        "itemName": "Gold",
+                        "itemValue": 0
+                    }
+                ]
+            },
+            {
+                "roomID": 7,
+                "linkedRooms": [4, 8],
+                "passages": [
+                    {
+                        "direction": "north",
+                        "roomID" : 4,
+                        "isExit": false
+                    },
+                    {
+                        "direction": "east",
+                        "roomID" : 8,
+                        "isExit": false
+                    }
+                ],
+                "items": [
+                    {
+                        "itemType": "treasure",
+                        "itemName": "Gold",
+                        "itemValue": 100
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Witch",
+                        "actionNeeded" : "water"
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Vampire",
+                        "actionNeeded" : "garlic"
+                    }
+                ]
+            },
+            {
+                "roomID": 8,
+                "linkedRooms": [5, 7],
+                "passages": [
+                    {
+                        "direction": "north",
+                        "roomID" : 5,
+                        "isExit": false
+                    },
+                    {
+                        "direction": "west",
+                        "roomID" : 7,
+                        "isExit": false
+                    }
+                ],
+                "items": [
+                    {
+                        "itemType": "treasure",
+                        "itemName": "Gold",
+                        "itemValue": 0
+                    }
+                ]
+            },
+            {
+                "roomID": 9,
+                "linkedRooms": [6],
+                "passages": [
+                    {
+                        "direction": "north",
+                        "roomID" : 6,
+                        "isExit": false
+                    }
+                ],
+                "items": [
+                    {
+                        "itemType": "treasure",
+                        "itemName": "Gold",
+                        "itemValue": 500
+                    },
+                    {
+                        "itemType": "threat",
+                        "itemName": "Zombie",
+                        "actionNeeded" : "axe"
+                    }
+                ]
+            }
+        ]
+    }
+}
